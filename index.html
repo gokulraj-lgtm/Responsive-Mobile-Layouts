@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Mobile Layouts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a href="#home">Responsive</a>
+    </div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="sr-only">Open menu</span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav id="primary-navigation" class="primary-navigation">
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Mobile-first design</p>
+        <h1>Build layouts that adapt beautifully to every screen.</h1>
+        <p>Fast, responsive interfaces for modern mobile and tablet experiences using semantic HTML and clean CSS.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#features">Explore features</a>
+          <a class="btn btn-secondary" href="#contact">Get started</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-mockup">
+          <div class="screen">
+            <div class="screen-content">
+              <h2>On the go</h2>
+              <p>Simple responsive cards, flexible navigation, and scalable typography for mobile devices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-grid" id="features">
+      <div class="section-intro">
+        <p class="eyebrow">Key features</p>
+        <h2>Designed for mobile-first workflows</h2>
+      </div>
+      <div class="grid-cards">
+        <article class="card">
+          <h3>Fluid layout</h3>
+          <p>Content resizes gracefully from small phones to large desktops using responsive units and CSS grid.</p>
+        </article>
+        <article class="card">
+          <h3>Accessible nav</h3>
+          <p>A compact menu expands on larger screens while remaining easy to use on touch devices.</p>
+        </article>
+        <article class="card">
+          <h3>Performance-first</h3>
+          <p>Minimal animations and efficient styling keep interactions smooth on mobile hardware.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery-text">
+        <p class="eyebrow">Flexible sections</p>
+        <h2>Responsive content blocks for full-width layouts</h2>
+        <p>Stack, wrap, or align content depending on available space without sacrificing readability.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item">Layout preview</div>
+        <div class="gallery-item">Card collection</div>
+        <div class="gallery-item">Section spacing</div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="section-intro">
+        <p class="eyebrow">Pricing</p>
+        <h2>Choose the right layout plan</h2>
+      </div>
+      <div class="pricing-grid">
+        <article class="pricing-card">
+          <h3>Starter</h3>
+          <p>Perfect for a clean mobile landing page.</p>
+          <span class="price">Free</span>
+          <ul>
+            <li>Responsive hero</li>
+            <li>Adaptive grid</li>
+            <li>Touch-ready nav</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="#contact">Select</a>
+        </article>
+        <article class="pricing-card featured">
+          <h3>Pro</h3>
+          <p>Best for richer content experiences on phone and tablet.</p>
+          <span class="price">₹1,699/mo</span>
+          <ul>
+            <li>Responsive sections</li>
+            <li>Flexible spacing</li>
+            <li>Fast loading</li>
+          </ul>
+          <a class="btn btn-secondary btn-block" href="#contact">Select</a>
+        </article>
+        <article class="pricing-card">
+          <h3>Realtime</h3>
+          <p>Still more realtime capability for live updates and instant sync.</p>
+          <span class="price">₹2,499/mo</span>
+          <ul>
+            <li>Live data sync</li>
+            <li>Push-ready interface</li>
+            <li>Always current content</li>
+          </ul>
+          <a class="btn btn-secondary btn-block" href="#contact">Select</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-card">
+        <h2>Ready to ship your responsive layout?</h2>
+        <p>Use this template as a starting point for mobile-first web pages and progressive interface design.</p>
+        <a class="btn btn-primary" href="mailto:hello@example.com">Contact us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Responsive Mobile Layouts. Built for small screens first.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
